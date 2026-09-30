@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery | FarmDirect</title>
+<link rel="stylesheet" href="../style/style.css">
+<link rel="stylesheet" href="../style/gallery.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="home.html">🌿 FarmDirect</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+   <nav id="navLinks">
+    <a href="../frontend/home.html">Home</a>
+    <a href="../frontend/gallery.html" class="active">Gallery</a>
+    <a href="../frontend/how-it-works.html">How It Works</a>
+    <a href="../frontend/about-us.html">About Us</a>
+    <a href="../frontend/help.html">Help &amp; Support</a>
+  </nav>
+  <div class="auth"><a href="#">Login</a><a href="#" class="btn">Sign Up</a></div>
+</header>
+
+<section class="g-hero">
+  <span class="badge">GALLERY</span>
+  <h1>Life on FarmDirect</h1>
+  <p>A glimpse into our farms, our community and the produce moving from field to table.</p>
+</section>
+
+<section class="wrap">
+  <div class="g-tabs" id="gTabs">
+    <button class="g-tab active" data-filter="all">All</button>
+    <button class="g-tab" data-filter="farms">Farms</button>
+    <button class="g-tab" data-filter="produce">Produce</button>
+    <button class="g-tab" data-filter="delivery">Delivery</button>
+    <button class="g-tab" data-filter="community">Community</button>
+  </div>
+
+  <div class="gallery" id="gallery"></div>
+</section>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous image">←</button>
+  <div class="lb-content">
+    <img id="lbImg" alt="">
+    <p id="lbCaption"></p>
+    <small id="lbTag"></small>
+  </div>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next image">→</button>
+</div>
+
+<footer>
+  <div class="foot">
+    <div><a class="logo" href="home.html">🌿 FarmDirect</a><p>Connecting Farmers and Buyers for a Better Tomorrow</p></div>
+    <div><b>Quick Links</b><a href="home.html">Home</a><a href="products.html">Products</a><a href="farmers.html">For Farmers</a><a href="index.html">Help &amp; Support</a></div>
+    <div><b>Support</b><a href="index.html">FAQs</a><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+    <div><b>Contact</b><a href="tel:18003008843">1800 300 8843</a><a href="mailto:support@farmdirect.in">support@farmdirect.in</a></div>
+  </div>
+</footer>
+
+<script src="../script/script.js"></script>
+<script src="../script/gallery.js"></script>
+</body>
+</html>

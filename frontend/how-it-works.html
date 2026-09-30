@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How It Works | FarmDirect</title>
+<link rel="stylesheet" href="../style/style.css">
+<link rel="stylesheet" href="../style/how-it-works.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="home.html">🌿 FarmDirect</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+  <nav id="navLinks">
+    <a href="../frontend/home.html">Home</a>
+    <a href="../frontend/gallery.html">Gallery</a>
+    <a href="../frontend/how-it-works.html"  class="active">How It Works</a>
+    <a href="../frontend/about-us.html">About Us</a>
+    <a href="../frontend/help.html">Help &amp; Support</a>
+  </nav>
+  <div class="auth"><a href="#">Login</a><a href="#" class="btn">Sign Up</a></div>
+</header>
+
+<section class="h-hero">
+  <span class="badge">HOW IT WORKS</span>
+  <h1>Farm to Table, Made Simple</h1>
+  <p>See how FarmDirect connects farmers and buyers directly — from listing produce to doorstep delivery.</p>
+</section>
+
+<section class="wrap">
+  <div class="h-tabs">
+    <button class="h-tab active" data-target="farmerSteps">For Farmers</button>
+    <button class="h-tab" data-target="buyerSteps">For Buyers</button>
+  </div>
+
+  <div class="h-steps" id="farmerSteps">
+    <div class="h-step"><span>1</span><i>📝</i><b>Create your account</b><small>Sign up with your phone number and add basic farm details.</small></div>
+    <div class="h-step"><span>2</span><i>🪪</i><b>Complete KYC</b><small>Verify your identity with Aadhaar for secure payouts.</small></div>
+    <div class="h-step"><span>3</span><i>🌾</i><b>List your produce</b><small>Add photos, quantity and price for each crop you want to sell.</small></div>
+    <div class="h-step"><span>4</span><i>📦</i><b>Receive orders</b><small>Buyers place orders directly — you get notified instantly.</small></div>
+    <div class="h-step"><span>5</span><i>🚚</i><b>Deliver or hand off</b><small>Choose self-delivery or our logistics partner for pickup.</small></div>
+    <div class="h-step"><span>6</span><i>💰</i><b>Get paid fast</b><small>Receive secure payouts within 24 hours of delivery.</small></div>
+  </div>
+
+  <div class="h-steps" id="buyerSteps" hidden>
+    <div class="h-step"><span>1</span><i>🔍</i><b>Browse products</b><small>Search fresh produce by category, price or nearby farms.</small></div>
+    <div class="h-step"><span>2</span><i>🛒</i><b>Add to cart</b><small>Pick quantities from verified farmers near you.</small></div>
+    <div class="h-step"><span>3</span><i>💳</i><b>Checkout securely</b><small>Pay safely through our protected payment gateway.</small></div>
+    <div class="h-step"><span>4</span><i>📍</i><b>Track your order</b><small>Follow your delivery in real time from farm to door.</small></div>
+    <div class="h-step"><span>5</span><i>📦</i><b>Receive fresh produce</b><small>Get your order delivered or ready for pickup nearby.</small></div>
+    <div class="h-step"><span>6</span><i>⭐</i><b>Rate &amp; reorder</b><small>Leave feedback and reorder your favourites in one tap.</small></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="row center"><h2>Watch How It Works</h2></div>
+  <div class="video-card card">
+    <div class="video-placeholder">▶️</div>
+    <p>A 1-minute walkthrough of listing produce, placing an order, and tracking delivery.</p>
+  </div>
+</section>
+
+<section class="download-section">
+  <div class="download-text">
+    <span class="badge light">GET THE APP</span>
+    <h2>Take FarmDirect Wherever You Go</h2>
+    <p>List produce, track orders and get payout alerts right from your phone. Available for Android and iOS.</p>
+    <div class="download-buttons">
+      <button class="store-btn" id="androidBtn">
+        <i>🤖</i><span><small>Get it on</small><b>Google Play</b></span>
+      </button>
+      <button class="store-btn" id="iosBtn">
+        <i>🍎</i><span><small>Download on the</small><b>App Store</b></span>
+      </button>
+    </div>
+    <a href="#" class="apk-link" id="apkLink">⬇️ Or download APK directly</a>
+  </div>
+  <div class="qr-box" aria-hidden="true">
+    <div class="qr-art">▦</div>
+    <small>Scan to download</small>
+  </div>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+
+<footer>
+  <div class="foot">
+    <div><a class="logo" href="home.html">🌿 FarmDirect</a><p>Connecting Farmers and Buyers for a Better Tomorrow</p></div>
+    <div><b>Quick Links</b><a href="home.html">Home</a><a href="products.html">Products</a><a href="farmers.html">For Farmers</a><a href="index.html">Help &amp; Support</a></div>
+    <div><b>Support</b><a href="index.html">FAQs</a><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+    <div><b>Contact</b><a href="tel:18003008843">1800 300 8843</a><a href="mailto:support@farmdirect.in">support@farmdirect.in</a></div>
+  </div>
+</footer>
+
+<script src="../script/script.js"></script>
+<script src="../script/how-it-works.js"></script>
+</body>
+</html>
