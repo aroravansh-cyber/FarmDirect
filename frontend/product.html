@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Products | FarmDirect</title>
+<link rel="stylesheet" href="../style/style.css">
+<link rel="stylesheet" href="../style/product.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="home.html">🌿 FarmDirect</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+  <nav id="navLinks">
+    <a href="../home.html">Home</a><a href="../frontend/product.html" class="active">Products</a><a href="#">For Farmers</a>
+    <a href="#">For Buyers</a><a href="#">How It Works</a><a href="#">About Us</a>
+    <a href="../frontend/index.html">Help &amp; Support</a>
+  </nav>
+  <div class="auth">
+    <a href="#">Login</a><a href="#" class="btn">Sign Up</a>
+    <a href="#" class="cart-btn" aria-label="Cart">🛒<span id="cartCount">0</span></a>
+  </div>
+</header>
+
+<section class="prod-hero">
+  <h1>Fresh Produce, Straight from the Farm</h1>
+  <p>Browse verified listings from farmers near you — no middlemen, honest prices.</p>
+  <div class="search">
+    <input id="searchInput" type="text" placeholder="Search for vegetables, fruits, grains…" aria-label="Search products">
+    <button class="btn" id="searchBtn">Search</button>
+  </div>
+</section>
+
+<section class="wrap products-layout">
+
+  <aside class="filters card">
+    <div class="filter-group">
+      <b>Category</b>
+      <label><input type="radio" name="cat" value="all" checked> All</label>
+      <label><input type="radio" name="cat" value="vegetables"> Vegetables</label>
+      <label><input type="radio" name="cat" value="fruits"> Fruits</label>
+      <label><input type="radio" name="cat" value="grains"> Grains</label>
+      <label><input type="radio" name="cat" value="dairy"> Dairy</label>
+      <label><input type="radio" name="cat" value="spices"> Spices</label>
+      <label><input type="radio" name="cat" value="pulses"> Pulses</label>
+    </div>
+    <div class="filter-group">
+      <b>Max Price (₹ / kg)</b>
+      <input type="range" id="priceRange" min="10" max="500" value="500">
+      <small id="priceLabel">Up to ₹500</small>
+    </div>
+    <button class="btn light" id="resetFilters">Reset Filters</button>
+  </aside>
+
+  <div class="products-main">
+    <div class="products-toolbar">
+      <span id="resultCount">Showing all products</span>
+      <select id="sortSelect" aria-label="Sort products">
+        <option value="popular">Sort: Popular</option>
+        <option value="low">Price: Low to High</option>
+        <option value="high">Price: High to Low</option>
+        <option value="new">Newest First</option>
+      </select>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+    <p id="noProducts" hidden>No products match your filters. Try adjusting them.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <div><a class="logo" href="../frontend/home.html">🌿 FarmDirect</a><p>Connecting Farmers and Buyers for a Better Tomorrow</p></div>
+    <div><b>Quick Links</b><a href="../frontend/home.html">Home</a><a href="../frontend/product.html">Products</a><a href="#">How It Works</a><a href="../frontend/index.html">Help &amp; Support</a></div>
+    <div><b>Support</b><a href="../frontend/index.html">FAQs</a><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+    <div><b>Contact</b><a href="tel:18003008843">1800 300 8843</a><a href="mailto:support@farmdirect.in">support@farmdirect.in</a></div>
+  </div>
+</footer>
+
+<script src="../script/script.js"></script>
+<script src="../script/product.js"></script>
+</body>
+</html>
