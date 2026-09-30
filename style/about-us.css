@@ -1,0 +1,53 @@
+.center{justify-content:center;text-align:center}
+.row.center h2{margin:0 auto}
+
+/* hero */
+.a-hero{text-align:center;padding:60px 5% 50px;background:linear-gradient(180deg,var(--mint),#fff)}
+.badge{background:#fff;color:var(--green);font-weight:700;font-size:12px;padding:5px 12px;border-radius:20px;letter-spacing:.5px}
+.a-hero h1{font-size:clamp(28px,4.5vw,44px);color:var(--dark);margin:16px auto 10px;max-width:760px}
+.a-hero p{color:var(--muted);font-size:17px;max-width:600px;margin:auto}
+
+/* story */
+.story{display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
+.story h2{font-size:26px;margin-bottom:14px;color:var(--dark)}
+.story p{color:var(--muted);font-size:15px;margin-bottom:12px}
+.story-art{font-size:130px;text-align:center;background:var(--mint);border-radius:20px;padding:40px}
+
+/* values */
+.values{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.value{padding:22px;text-align:center}
+.value i{font-size:28px;display:block;margin-bottom:10px}
+.value b{display:block;margin-bottom:6px;font-size:15px}
+.value small{color:var(--muted);font-size:13px}
+
+/* stats */
+.stats-band{background:var(--dark);border-radius:16px;padding:34px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;text-align:center}
+.stats-band .stat strong{font-size:32px;color:#fff;display:block}
+.stats-band .stat small{color:#cfe3d7;font-size:13px}
+
+/* team */
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.member{padding:24px;text-align:center}
+.avatar{font-size:40px;width:74px;height:74px;border-radius:50%;background:var(--mint);display:grid;place-items:center;margin:0 auto 12px}
+.member b{display:block;font-size:15px}
+.member small{color:var(--muted);font-size:13px}
+
+/* timeline */
+.timeline{position:relative;padding-left:24px;border-left:3px solid var(--mint);display:grid;gap:26px}
+.t-item{position:relative}
+.dot{position:absolute;left:-32px;top:4px;width:14px;height:14px;border-radius:50%;background:var(--green);border:3px solid #fff;box-shadow:0 0 0 2px var(--mint)}
+.t-item b{display:block;font-size:16px;color:var(--dark)}
+.t-item small{color:var(--muted);font-size:14px}
+
+@media(max-width:1000px){
+  .story{grid-template-columns:1fr}
+  .story-art{order:-1}
+  .values{grid-template-columns:repeat(2,1fr)}
+  .stats-band{grid-template-columns:repeat(2,1fr)}
+  .team{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+  .values{grid-template-columns:1fr}
+  .team{grid-template-columns:1fr}
+  .story-art{font-size:80px;padding:26px}
+}
