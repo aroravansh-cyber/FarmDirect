@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help & Support | FarmDirect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#">🌿 FarmDirect</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+  <nav id="navLinks">
+    <a href="#">Home</a><a href="#">Products</a><a href="#">For Farmers</a>
+    <a href="#">For Buyers</a><a href="#">How It Works</a><a href="#">About Us</a>
+    <a href="#" class="active">Help &amp; Support</a>
+  </nav>
+  <div class="auth"><a href="#">Login</a><a href="#" class="btn">Sign Up</a></div>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>We’re Here to Help You Grow</h1>
+    <p>Find answers, get support and learn how to make the most of FarmDirect for your farming business.</p>
+    <form class="search" id="searchForm">
+      <input id="searchInput" type="text" placeholder="Search for articles, guides, FAQs…" aria-label="Search help">
+      <button class="btn" type="submit">Search</button>
+    </form>
+    <div class="chips">
+      <span>Popular searches:</span>
+      <button>List Product</button><button>Payments</button><button>Delivery</button><button>KYC</button><button>Account</button>
+    </div>
+  </div>
+  <div class="tagline">Stronger Farmers<br>Brighter Tomorrow</div>
+</section>
+
+<main>
+  <section class="wrap">
+    <div class="row"><h2>Browse Help Topics</h2><a href="#" class="link">View All Topics →</a></div>
+    <div class="topics">
+      <a href="#" class="card topic"><i style="background:#dff3e6">👤</i><b>Account &amp; Profile</b><small>Manage your account, profile and settings</small></a>
+      <a href="#" class="card topic"><i style="background:#dff3e6">🌱</i><b>List &amp; Sell Products</b><small>Learn how to add, edit and manage products</small></a>
+      <a href="#" class="card topic"><i style="background:#ffeacc">📦</i><b>Orders &amp; Payments</b><small>Track orders, understand payouts and transactions</small></a>
+      <a href="#" class="card topic"><i style="background:#dce9ff">🚚</i><b>Delivery &amp; Logistics</b><small>Learn about delivery options and shipping</small></a>
+      <a href="#" class="card topic"><i style="background:#e8e2fb">🪪</i><b>KYC &amp; Aadhaar</b><small>Update your documents and verification</small></a>
+      <a href="#" class="card topic"><i style="background:#d8f1f6">❓</i><b>Other Queries</b><small>General help and support</small></a>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="support">
+      <div class="support-text">
+        <small>STILL NEED HELP?</small>
+        <h2>Our Support Team is Here for You</h2>
+        <p>Choose your preferred way to contact us. We’ll be happy to assist you.</p>
+      </div>
+      <div class="contact card">
+        <b>📞 Call Support</b><strong>1800 300 8843</strong><small>Mon - Sat, 9 AM - 7 PM</small>
+        <a class="btn light" href="tel:18003008843">Call Now</a>
+      </div>
+      <div class="contact card">
+        <b>💬 Chat on WhatsApp</b><strong>+91 98765 43210</strong><small>Get instant help</small>
+        <a class="btn light" href="https://wa.me/919876543210" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+      <div class="contact card">
+        <b>✉️ Email Support</b><strong>support@farmdirect.in</strong><small>We’ll respond within 24 hours</small>
+        <a class="btn light" href="mailto:support@farmdirect.in">Send Email</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap two-col">
+    <div>
+      <div class="row"><h2>Frequently Asked Questions</h2><a href="#" class="link">View All FAQs →</a></div>
+      <div class="faqs" id="faqs">
+        <details><summary>How to list and sell my organic crops?</summary><p>Go to List &amp; Sell Products, tap “Add product”, fill in crop details, price and photos, then submit for review.</p></details>
+        <details><summary>How do payouts and secure bank transfers work?</summary><p>Payouts are sent to your verified bank account after the buyer confirms delivery.</p></details>
+        <details><summary>What is the delivery and logistics process?</summary><p>Choose pickup or partner delivery when a order comes in. You’ll see tracking updates in Orders.</p></details>
+        <details><summary>How can I update my Aadhaar details?</summary><p>Open KYC &amp; Aadhaar in your profile, upload the new document and wait for verification.</p></details>
+        <details><summary>Is there any commission on sales?</summary><p>Commission details are listed in the Terms &amp; Conditions page under Fees.</p></details>
+      </div>
+      <p id="noResult" hidden>No matching questions. Try another keyword.</p>
+    </div>
+    <aside class="resources card">
+      <h2>Helpful Resources</h2>
+      <a href="#"><i>👤</i><span><b>Getting Started Guide</b><small>Learn the basics of FarmDirect</small></span></a>
+      <a href="#"><i>▶️</i><span><b>Video Tutorials</b><small>Step-by-step video guides</small></span></a>
+      <a href="#"><i>📱</i><span><b>Download Mobile App</b><small>Get the latest version</small></span></a>
+      <a href="#"><i>✔️</i><span><b>Support Policy</b><small>Terms and support information</small></span></a>
+    </aside>
+  </section>
+</main>
+
+<footer>
+  <div class="foot">
+    <div><a class="logo" href="#">🌿 FarmDirect</a><p>Connecting Farmers and Buyers for a Better Tomorrow</p></div>
+    <div><b>Quick Links</b><a href="#">Home</a><a href="#">Products</a><a href="#">How It Works</a><a href="#">Help &amp; Support</a></div>
+    <div><b>Support</b><a href="#">FAQs</a><a href="#">Contact Us</a><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a></div>
+    <div><b>Contact</b><a href="tel:18003008843">1800 300 8843</a><a href="mailto:support@farmdirect.in">support@farmdirect.in</a></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
