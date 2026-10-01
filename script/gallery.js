@@ -1,6 +1,9 @@
 // To use your own photos: drop image files into the /images folder next to
 // this file, then update the "src" below to match each filename.
 // Recommended size: roughly square or 4:3, under ~500KB each for fast loading.
+
+
+// Code for uploading images in gallery
 const IMAGES = [
   { src: "../assets/image/farm-sunrise.png",   caption: "Sunrise over paddy fields in Nashik",        tag: "farms",     big: true },
   { src: "../assets/images/tomatoes.png",       caption: "Farmer harvesting fresh tomatoes",            tag: "produce" },
