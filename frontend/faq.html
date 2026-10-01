@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script src="theme.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQs | FarmDirect</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="faq.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="home.html">🌿 FarmDirect</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+  <nav id="navLinks">
+    <a href="home.html">Home</a><a href="products.html">Products</a><a href="farmers.html">For Farmers</a>
+    <a href="#">For Buyers</a><a href="howitworks.html">How It Works</a><a href="about.html">About Us</a>
+    <a href="index.html">Help &amp; Support</a>
+  </nav>
+  <div class="auth"><a href="#">Login</a><a href="#" class="btn">Sign Up</a></div>
+</header>
+
+<section class="faq-hero">
+  <span class="badge">FAQs</span>
+  <h1>Frequently Asked Questions</h1>
+  <p>Everything you need to know about buying, selling and using FarmDirect.</p>
+  <div class="search">
+    <input id="searchInput" type="text" placeholder="Search questions…" aria-label="Search FAQs">
+    <button class="btn" id="searchBtn">Search</button>
+  </div>
+</section>
+
+<section class="wrap faq-layout">
+
+  <aside class="faq-nav card">
+    <b>Categories</b>
+    <button class="cat-btn active" data-cat="all">All Questions</button>
+    <button class="cat-btn" data-cat="account">Account &amp; Profile</button>
+    <button class="cat-btn" data-cat="selling">List &amp; Sell Products</button>
+    <button class="cat-btn" data-cat="orders">Orders &amp; Payments</button>
+    <button class="cat-btn" data-cat="delivery">Delivery &amp; Logistics</button>
+    <button class="cat-btn" data-cat="kyc">KYC &amp; Aadhaar</button>
+    <button class="cat-btn" data-cat="other">Other Queries</button>
+  </aside>
+
+  <div class="faq-main">
+    <div id="resultCount" class="result-count"></div>
+    <div class="faqs" id="faqList"></div>
+    <p id="noResult" hidden>No questions match your search. Try a different keyword or contact support.</p>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="faq-cta card">
+    <div>
+      <h2>Still have questions?</h2>
+      <p>Our support team is happy to help with anything not covered here.</p>
+    </div>
+    <a href="index.html" class="btn">Contact Support</a>
+  </div>
+</section>
+
+<footer>
+  <div class="foot">
+    <div><a class="logo" href="../assets/logo/logo.png">🌿 FarmDirect</a><p>Connecting Farmers and Buyers for a Better Tomorrow</p></div>
+    <div>
+      <b>Quick Links</b>
+      <a href="../frontend/home.html">Home</a>
+      <a href="../frontend/gallery.html">Gallery</a>
+      <a href="../frontend/how-it-works.html">How It Works</a>
+      <a href="../frontend/index.html">Help &amp; Support</a>
+    </div>
+    <div><b>Support</b>
+      <a href="../frontend/faq.html">FAQs</a>
+      <a href="mailto:support@farmdirect.in">Contact Us</a>
+      <a href="../frontend/privacy.html">Privacy Policy</a>
+      <a href="../frontend/terms.html">Terms &amp; Conditions</a>
+    </div>
+    <div><b>Contact</b>
+      <a href="tel:18003008843">1800 300 8843</a>
+      <a href="mailto:support@farmdirect.in">support@farmdirect.in</a>
+    </div>
+  </div>
+</footer>
+
+<script src="../script/script.js"></script>
+<script src="../script/faq.js"></script>
+</body>
+</html>
