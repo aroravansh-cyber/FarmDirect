@@ -98,3 +98,14 @@ footer{background:var(--dark);color:#d5e6dc;padding:36px 5%}
   .hero{padding:36px 5%}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
