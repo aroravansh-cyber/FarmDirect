@@ -85,3 +85,5 @@ searchInput.addEventListener('input', render);
 document.getElementById('searchBtn').addEventListener('click', e => { e.preventDefault(); render(); });
 
 render();
+
+
