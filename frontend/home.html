@@ -1,142 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FarmDirect | From Farm to Table, Direct</title>
-<link rel="stylesheet" href="../style/style.css">
-<link rel="stylesheet" href="../style/home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>FarmDirect | From Farm to Table, Direct</title>
+
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/home.css">
 </head>
+
 <body>
 
-<header class="nav">
-  <a class="logo" href="../frontend/home.html">🌿 FarmDirect</a>
-  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
-  <nav id="navLinks">
-    <a href="../frontend/home.html" class="active">Home</a>
-    <a href="../frontend/gallery.html">Gallery</a>
-    <a href="../frontend/how-it-works.html">How It Works</a>
-    <a href="../frontend/about-us.html">About Us</a>
-    <a href="../frontend/help.html">Help &amp; Support</a>
-  </nav>
-  <div class="auth"><a href="#">Login</a><a href="#" class="btn">Sign Up</a></div>
-</header>
+  <!-- Navigation -->
 
-<section class="home-hero">
-  <div class="home-hero-text">
-    <h1>From Farm to Table, <em>Direct.</em></h1>
-    <p>FarmDirect connects farmers straight to buyers — no middlemen, fairer prices, and fresher produce for everyone.</p>
-    <div class="hero-cta">
-      <a href="#" class="btn">Explore Products</a>
-      <a href="#" class="btn outline">Start Selling</a>
-    </div>
-  </div>
-  <div class="home-hero-art" aria-hidden="true">
-    <div class="leaf leaf1">🥬</div>
-    <div class="leaf leaf2">🍅</div>
-    <div class="leaf leaf3">🌾</div>
-    <div class="leaf leaf4">🥕</div>
-  </div>
-</section>
+  <header class="nav">
+    <a class="logo" href="../frontend/home.html">FarmDirect</a>
 
-<section class="stats wrap">
-  <div class="stat"><strong data-count="12000">0</strong><small>Farmers Onboarded</small></div>
-  <div class="stat"><strong data-count="80">0</strong><small>Cities Covered</small></div>
-  <div class="stat"><strong data-count="45000">0</strong><small>Products Listed</small></div>
-  <div class="stat"><strong data-count="98">0</strong><small>% On-time Delivery</small></div>
-</section>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+      ☰
+    </button>
 
-<section class="wrap">
-  <div class="row"><h2>How FarmDirect Works</h2></div>
-  <div class="steps">
-    <div class="step"><span>1</span><b>List your produce</b><small>Farmers add crops with photos, price and quantity in minutes.</small></div>
-    <div class="step"><span>2</span><b>Get matched with buyers</b><small>Buyers browse and place orders directly from nearby farms.</small></div>
-    <div class="step"><span>3</span><b>Deliver &amp; get paid</b><small>Choose pickup or delivery, then receive secure payouts fast.</small></div>
-  </div>
-</section>
-
-<section class="wrap">
-  <div class="row"><h2>Shop by Category</h2><a href="#" class="link">View All Products →</a></div>
-  <div class="categories">
-    <a href="#" class="card cat"><i>🥦</i><b>Vegetables</b></a>
-    <a href="#" class="card cat"><i>🍎</i><b>Fruits</b></a>
-    <a href="#" class="card cat"><i>🌾</i><b>Grains</b></a>
-    <a href="#" class="card cat"><i>🥛</i><b>Dairy</b></a>
-    <a href="#" class="card cat"><i>🌶️</i><b>Spices</b></a>
-    <a href="#" class="card cat"><i>🫘</i><b>Pulses</b></a>
-  </div>
-</section>
-
-<section class="wrap">
-  <div class="split">
-    <div class="card split-card">
-      <i>🚜</i>
-      <h3>For Farmers</h3>
-      <p>Sell your produce directly to buyers at fair prices, with no hidden commission and secure payouts.</p>
-      <a href="#" class="link">Start Selling →</a>
-    </div>
-    <div class="card split-card">
-      <i>🛒</i>
-      <h3>For Buyers</h3>
-      <p>Get fresh produce straight from local farms, delivered to your doorstep or picked up nearby.</p>
-      <a href="#" class="link">Start Buying →</a>
-    </div>
-  </div>
-</section>
-
-<section class="wrap">
-  <div class="row"><h2>What Our Community Says</h2></div>
-  <div class="testimonials">
-    <button class="t-nav" id="tPrev" aria-label="Previous testimonial">←</button>
-    <div class="t-track" id="tTrack">
-      <div class="t-card card">
-        <p>“FarmDirect helped me sell my organic tomatoes without a middleman. My earnings went up within the first month.”</p>
-        <b>— Ramesh Patil, Farmer, Nashik</b>
-      </div>
-      <div class="t-card card">
-        <p>“I get fresher vegetables at better prices than my local market, and delivery is always on time.”</p>
-        <b>— Anjali Mehta, Buyer, Pune</b>
-      </div>
-      <div class="t-card card">
-        <p>“The payout process is transparent and quick. I finally feel in control of my own pricing.”</p>
-        <b>— Suresh Yadav, Farmer, Indore</b>
-      </div>
-    </div>
-    <button class="t-nav" id="tNext" aria-label="Next testimonial">→</button>
-  </div>
-</section>
-
-<section class="cta-banner">
-  <h2>Ready to grow with FarmDirect?</h2>
-  <p>Join thousands of farmers and buyers building a fairer food supply chain.</p>
-  <a href="#" class="btn light">Sign Up Free</a>
-</section>
-
-<footer>
-  <div class="foot">
-    <div><a class="logo" href="../assets/logo/logo.png">🌿 FarmDirect</a><p>Connecting Farmers and Buyers for a Better Tomorrow</p></div>
-    <div>
-      <b>Quick Links</b>
-      <a href="../frontend/home.html">Home</a>
+    <nav id="navLinks">
+      <a href="../frontend/home.html" class="active">Home</a>
       <a href="../frontend/gallery.html">Gallery</a>
       <a href="../frontend/how-it-works.html">How It Works</a>
-      <a href="../frontend/index.html">Help &amp; Support</a>
+      <a href="../frontend/about-us.html">About Us</a>
+      <a href="../frontend/help.html">Help &amp; Support</a>
+    </nav>
+
+    <div class="auth">
+      <a href="#">Login</a>
+      <a href="#" class="btn">Sign Up</a>
     </div>
-    <div><b>Support</b>
-      <a href="../frontend/faq.html">FAQs</a>
-      <a href="mailto:support@farmdirect.in">Contact Us</a>
-      <a href="../frontend/privacy.html">Privacy Policy</a>
-      <a href="../frontend/terms.html">Terms &amp; Conditions</a>
-    </div>
-    <div><b>Contact</b>
-      <a href="tel:18003008843">1800 300 8843</a>
-      <a href="mailto:support@farmdirect.in">support@farmdirect.in</a>
-    </div>
+  </header>
+
+
+ <!-- Government Schemes Marquee -->
+
+<div class="scheme-marquee">
+  <div class="marquee-content">
+    PM-KISAN — Income support for eligible farmer families
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    PM Fasal Bima Yojana — Crop insurance support
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    Kisan Credit Card — Agricultural credit facility
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    Pradhan Mantri Krishi Sinchayee Yojana — Irrigation support
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    Soil Health Card Scheme — Soil testing and nutrient guidance
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    Agriculture Infrastructure Fund — Financing support for eligible projects
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    National Agriculture Market (e-NAM) — Online agricultural market platform
+    &nbsp;&nbsp; • &nbsp;&nbsp;
+    Rashtriya Gokul Mission — Support for indigenous cattle development
   </div>
-</footer>
+</div>
+
+  <!-- Hero Section -->
+
+  <section class="home-hero">
+
+    <div class="home-hero-text">
+
+      <h1>
+        From Farm to Table, <em>Direct.</em>
+      </h1>
+
+      <p>
+        Fresh produce directly from local farmers,
+        <br>
+        with fair prices for everyone.
+      </p>
+
+      <div class="hero-cta">
+        <a href="../frontend/gallery.html" class="btn">
+          Explore Gallery
+        </a>
+
+        <a href="../frontend/how-it-works.html" class="btn outline">
+          How It Works
+        </a>
+      </div>
+
+    </div>
+
+  </section>
 
 
-<script src="../script/script.js"></script>
-<script src="../script/home.js"></script>
+  <!-- Statistics -->
+
+  <section class="stats wrap">
+
+    <div class="stat">
+      <strong data-count="12000">0</strong>
+      <small>Farmers Onboarded</small>
+    </div>
+
+    <div class="stat">
+      <strong data-count="80">0</strong>
+      <small>Cities Covered</small>
+    </div>
+
+    <div class="stat">
+      <strong data-count="45000">0</strong>
+      <small>Products Listed</small>
+    </div>
+
+    <div class="stat">
+      <strong data-count="98">0</strong>
+      <small>% On-time Delivery</small>
+    </div>
+
+  </section>
+
+
+  <!-- How FarmDirect Works -->
+
+  <section class="wrap">
+
+    <div class="row">
+      <h2>How FarmDirect Works</h2>
+    </div>
+
+    <div class="steps">
+
+      <div class="step">
+        <span>1</span>
+        <b>List your produce</b>
+        <small>
+          Farmers add crops with photos, price and quantity in minutes.
+        </small>
+      </div>
+
+      <div class="step">
+        <span>2</span>
+        <b>Get matched with buyers</b>
+        <small>
+          Buyers browse and place orders directly from nearby farms.
+        </small>
+      </div>
+
+      <div class="step">
+        <span>3</span>
+        <b>Deliver &amp; get paid</b>
+        <small>
+          Choose pickup or delivery, then receive secure payouts fast.
+        </small>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Shop by Category -->
+
+  <section class="wrap">
+
+    <div class="row">
+      <h2>Shop by Category</h2>
+
+      <a href="../frontend/how-it-works.html" class="link">
+        View All Products →
+      </a>
+    </div>
+
+    <div class="categories">
+
+      <a href="../frontend/how-it-works.html" class="card cat">
+        <img src="../assets/image/vegetable.png" alt="Vegetables">
+        <b>Vegetables</b>
+      </a>
+
+      <a href="../frontend/how-it-works.html" class="card cat">
+        <img src="../assets/image/fruit.png" alt="Fruits">
+        <b>Fruits</b>
+      </a>
+
+      <a href="../frontend/how-it-works.html" class="card cat">
+        <img src="../assets/image/grain.png" alt="Grains">
+        <b>Grains</b>
+      </a>
+
+      <a href="../frontend/how-it-works.html" class="card cat">
+        <img src="../assets/image/milk.png" alt="Dairy">
+        <b>Dairy</b>
+      </a>
+
+      <a href="../frontend/how-it-works.html" class="card cat">
+        <img src="../assets/image/spices.png" alt="Spices">
+        <b>Spices</b>
+      </a>
+
+      <a href="../frontend/how-it-works.html" class="card cat">
+        <img src="../assets/image/pulses.png" alt="Pulses">
+        <b>Pulses</b>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- Farmers and Buyers -->
+
+  <section class="wrap">
+
+    <div class="split">
+
+      <div class="card split-card">
+        <h3>For Farmers</h3>
+
+        <p>
+          Sell your produce directly to buyers at fair prices,
+          with no hidden commission and secure payouts.
+        </p>
+
+        <a href="#" class="link">
+          Start Selling →
+        </a>
+      </div>
+
+
+      <div class="card split-card">
+        <h3>For Buyers</h3>
+
+        <p>
+          Get fresh produce straight from local farms,
+          delivered to your doorstep or picked up nearby.
+        </p>
+
+        <a href="#" class="link">
+          Start Buying →
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="wrap">
+
+    <div class="row">
+      <h2>What Our Community Says</h2>
+    </div>
+
+    <div class="testimonials">
+
+      <button class="t-nav" id="tPrev" aria-label="Previous testimonial">
+        ←
+      </button>
+
+      <div class="t-track" id="tTrack">
+
+        <div class="t-card card">
+          <p>
+            “FarmDirect helped me sell my organic tomatoes without a
+            middleman. My earnings went up within the first month.”
+          </p>
+
+          <b>— Ramesh Patil, Farmer, Nashik</b>
+        </div>
+
+        <div class="t-card card">
+          <p>
+            “I get fresher vegetables at better prices than my local
+            market, and delivery is always on time.”
+          </p>
+
+          <b>— Anjali Mehta, Buyer, Pune</b>
+        </div>
+
+        <div class="t-card card">
+          <p>
+            “The payout process is transparent and quick. I finally
+            feel in control of my own pricing.”
+          </p>
+
+          <b>— Suresh Yadav, Farmer, Indore</b>
+        </div>
+
+      </div>
+
+      <button class="t-nav" id="tNext" aria-label="Next testimonial">
+        →
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- CTA Banner -->
+
+  <section class="cta-banner">
+
+    <h2>Ready to grow with FarmDirect?</h2>
+
+    <p>
+      Join thousands of farmers and buyers building a fairer food supply chain.
+    </p>
+
+    <a href="#" class="btn light">
+      Sign Up Free
+    </a>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="foot">
+
+      <div>
+        <a class="logo" href="../frontend/home.html">
+          FarmDirect
+        </a>
+
+        <p>
+          Connecting Farmers and Buyers for a Better Tomorrow
+        </p>
+      </div>
+
+
+      <div>
+
+        <b>Quick Links</b>
+
+        <a href="../frontend/home.html">Home</a>
+        <a href="../frontend/gallery.html">Gallery</a>
+        <a href="../frontend/how-it-works.html">How It Works</a>
+        <a href="../frontend/help.html">Help &amp; Support</a>
+
+      </div>
+
+
+      <div>
+
+        <b>Support</b>
+
+        <a href="../frontend/faq.html">FAQs</a>
+
+        <a href="mailto:support@farmdirect.in">
+          Contact Us
+        </a>
+
+        <a href="../frontend/privacy.html">
+          Privacy Policy
+        </a>
+
+        <a href="../frontend/terms.html">
+          Terms &amp; Conditions
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <b>Contact</b>
+
+        <a href="tel:18003008843">
+          1800 300 8843
+        </a>
+
+        <a href="mailto:support@farmdirect.in">
+          support@farmdirect.in
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Scripts -->
+
+  <script src="../script/script.js"></script>
+  <script src="../script/home.js"></script>
+
 </body>
 </html>

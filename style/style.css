@@ -68,6 +68,7 @@ mark{background:#ffe38a}
 .resources i{width:36px;height:36px;background:var(--mint);font-size:18px}
 .resources small{display:block;color:var(--muted);font-size:12px}
 
+
 /* footer */
 footer{background:var(--dark);color:#d5e6dc;padding:36px 5%}
 .foot{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:24px;max-width:1240px;margin:auto;font-size:14px}
