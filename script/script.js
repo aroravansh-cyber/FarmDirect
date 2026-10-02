@@ -35,6 +35,8 @@ document.querySelectorAll('.chips button').forEach(btn =>
   })
 );
 
+
+
 // Only one FAQ open at a time (when not searching)
 items.forEach(d => d.addEventListener('toggle', () => {
   if (d.open && !input.value.trim()) items.forEach(o => { if (o !== d) o.open = false; });
