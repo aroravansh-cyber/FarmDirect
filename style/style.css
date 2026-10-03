@@ -1,16 +1,82 @@
-:root{--green:#0f7a45;--dark:#0d3b2a;--mint:#e6f4ea;--text:#1c2b24;--muted:#66766d;--line:#e3ebe6}
-*{box-sizing:border-box;margin:0}
-body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--text);background:#fff;line-height:1.5}
-a{color:inherit;text-decoration:none}
-.btn{background:var(--green);color:#fff;padding:10px 20px;border:0;border-radius:8px;font-weight:600;cursor:pointer;display:inline-block;font-size:15px}
-.btn.light{background:var(--mint);color:var(--green);text-align:center;width:100%}
-:focus-visible{outline:3px solid #7bd3a3;outline-offset:2px}
+:root{
+  --green:#0f7a45;
+  --dark:#0d3b2a;
+  --mint:#e6f4ea;
+  --text:#1c2b24;
+  --muted:#66766d;
+  --line:#e3ebe6
+}
+
+*{
+  box-sizing:border-box;
+  margin:0
+}
+
+body{
+  font-family:'Segoe UI',
+  system-ui,-apple-system,
+  sans-serif;color:var(--text);
+  background:#fff;
+  line-height:1.5
+}
+
+a{
+  color:inherit;
+  text-decoration:none
+}
+
+.btn{
+  background:var(--green);
+  color:#fff;
+  padding:10px 20px;
+  border:0;
+  border-radius:8px;
+  font-weight:600;
+  cursor:pointer;
+  display:inline-block;
+  font-size:15px
+}
+
+.btn.light{
+  background:var(--mint);
+  color:var(--green);
+  text-align:center;
+  width:100%
+}
+
+:focus-visible{
+  outline:3px solid #7bd3a3;
+  outline-offset:2px
+}
 
 /* nav */
-.nav{display:flex;align-items:center;gap:24px;padding:12px 5%;background:#fff;position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line)}
-.logo{font-weight:700;font-size:22px;color:var(--dark)}
-.nav nav{display:flex;gap:22px;margin:0 auto;font-size:14px}
-.nav nav a{padding:6px 0}
+
+.nav{
+  display:flex;
+  align-items:center;
+  gap:24px;
+  padding:12px 5%;
+  background:#fff;
+  position:sticky;
+  top:0;z-index:10;
+  border-bottom:1px solid var(--line)
+}
+
+.logo{
+  font-weight:700;
+  font-size:22px;
+  color:var(--dark)
+}
+.nav nav{
+  display:flex;
+  gap:22px;
+  margin:0 auto;
+  font-size:14px}
+
+.nav nav a{
+  padding:6px 0
+}
+
 .nav nav a.active{color:var(--green);border-bottom:2px solid var(--green);font-weight:600}
 .auth{display:flex;align-items:center;gap:18px;font-size:14px}
 .menu-btn{display:none;background:none;border:0;font-size:24px;margin-left:auto;cursor:pointer}
