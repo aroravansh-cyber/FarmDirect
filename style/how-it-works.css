@@ -14,12 +14,55 @@
 .h-tab.active{background:var(--green);color:#fff;border-color:var(--green)}
 
 /* steps */
-.h-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.h-step{background:var(--mint);border-radius:14px;padding:22px;position:relative}
-.h-step span{position:absolute;top:16px;right:18px;font-size:12px;font-weight:700;color:var(--green);background:#fff;width:22px;height:22px;border-radius:50%;display:grid;place-items:center}
-.h-step i{font-size:26px;display:block;margin-bottom:10px}
-.h-step b{display:block;margin-bottom:6px;font-size:15px}
-.h-step small{color:var(--muted);font-size:13px}
+
+.h-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.h-steps[hidden] {
+  display: none !important;
+}
+
+.h-step {
+  background: var(--mint);
+  border-radius: 14px;
+  padding: 22px;
+  position: relative;
+}
+
+.h-step span {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--green);
+  background: #fff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.h-step i {
+  font-size: 26px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.h-step b {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.h-step small {
+  color: var(--muted);
+  font-size: 13px;
+}
 
 /* video */
 .video-card{padding:30px;text-align:center;max-width:640px;margin:auto}

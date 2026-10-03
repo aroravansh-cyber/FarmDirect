@@ -6,7 +6,7 @@
 // Code for uploading images in gallery
 const IMAGES = [
   { src: "../assets/image/farm-sunrise.png",   caption: "Sunrise over paddy fields in Nashik",        tag: "farms",     big: true },
-  { src: "../assets/images/tomatoes.png",       caption: "Farmer harvesting fresh tomatoes",            tag: "produce" },
+  { src: "../assets/image/tomatoes.png",       caption: "Farmer harvesting fresh tomatoes",            tag: "produce" },
   { src: "../assets/images/delivery-van.png",   caption: "Weekly produce delivery to buyers",           tag: "delivery" },
   { src: "../assets/images/veg-crates.png",     caption: "Organic vegetable crates ready for pickup",   tag: "produce" },
   { src: "../assets/images/orchard-family.png", caption: "Farmer family at their orchard",              tag: "farms" },
