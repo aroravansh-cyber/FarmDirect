@@ -7,16 +7,16 @@
 const IMAGES = [
   { src: "../assets/image/farm-sunrise.png",   caption: "Sunrise over paddy fields in Nashik",        tag: "farms",     big: true },
   { src: "../assets/image/tomatoes.png",       caption: "Farmer harvesting fresh tomatoes",            tag: "produce" },
-  { src: "../assets/images/delivery-van.png",   caption: "Weekly produce delivery to buyers",           tag: "delivery" },
-  { src: "../assets/images/veg-crates.png",     caption: "Organic vegetable crates ready for pickup",   tag: "produce" },
-  { src: "../assets/images/orchard-family.png", caption: "Farmer family at their orchard",              tag: "farms" },
-  { src: "../assets/images/training.png",       caption: "Community farmer training session",           tag: "community" },
-  { src: "../assets/images/dairy.png",          caption: "Fresh dairy collection at sunrise",           tag: "produce" },
-  { src: "../assets/images/tractor.png",        caption: "Tilling the fields before sowing season",     tag: "farms" },
-  { src: "../assets/images/packing.png",        caption: "Packing orders for same-day delivery",        tag: "delivery" },
-  { src: "../assets/images/harvest-party.png",  caption: "Farmers celebrating a successful harvest",    tag: "community" },
-  { src: "../assets/images/chillies.png",       caption: "Sun-drying red chillies",                     tag: "produce" },
-  { src: "assets/images/handshake.png",      caption: "Buyer and farmer closing a direct deal",      tag: "community" },
+  { src: "../assets/image/delivery-van.png",   caption: "Weekly produce delivery to buyers",           tag: "delivery" },
+  { src: "../assets/image/veg-crates.png",     caption: "Organic vegetable crates ready for pickup",   tag: "produce" },
+  { src: "../assets/image/orchard-family.png", caption: "Farmer family at their orchard",              tag: "farms" },
+  { src: "../assets/image/training.png",       caption: "Community farmer training session",           tag: "community" },
+  { src: "../assets/image/dairy.png",          caption: "Fresh dairy collection at sunrise",           tag: "produce" },
+  { src: "../assets/image/tractor.png",        caption: "Tilling the fields before sowing season",     tag: "farms" },
+  { src: "../assets/image/packing.png",        caption: "Packing orders for same-day delivery",        tag: "delivery" },
+  { src: "../assets/image/harvest-party.png",  caption: "Farmers celebrating a successful harvest",    tag: "community" },
+  { src: "../assets/image/chillies.png",       caption: "Sun-drying red chillies",                     tag: "produce" },
+  { src: "../assets/image/handshake.png",      caption: "Buyer and farmer closing a direct deal",      tag: "community" },
 ];
 
 const gallery = document.getElementById('gallery');
